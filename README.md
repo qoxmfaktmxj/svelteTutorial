@@ -30,4 +30,4 @@
 ### api test GET(조회), POST(저장), PATCH(업데이트) 폴더 comments내 있음
 ### 구문 확인 const comment = comments.find((comment)=> comment.id === parseInt(commentId));
 ---
-# https://www.youtube.com/watch?v=3R4rSyMCiC0&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=22
+# https://www.youtube.com/watch?v=SxcfP0V-LxM&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=22
