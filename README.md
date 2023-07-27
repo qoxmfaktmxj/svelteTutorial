@@ -24,7 +24,10 @@
 ---
 ### demo-api폴더에 +server.js로 api 생성함 {url}/demo-api 호출 시 값 확인 가능
 ### @sveltejs/kit으로부터 json 임포트 하면 return json(comments); 가능 (편리)
-### API 테스트 위해 VS Code Rest API Client인 Thunder Client Extension 설치
+### API 테스트 위해 VS Code Rest API Client인 Thunder Client Extension 설치 ( or POSTMAN)
 ### 이후 http://[::]:5173/api/comments 확인 (localhost대신 [::] 사용)
 ---
-# https://www.youtube.com/watch?v=3R4rSyMCiC0&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=19
+### api test GET(조회), POST(저장), PATCH(업데이트) 폴더 comments내 있음
+### 구문 확인 const comment = comments.find((comment)=> comment.id === parseInt(commentId));
+---
+# https://www.youtube.com/watch?v=3R4rSyMCiC0&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=22
