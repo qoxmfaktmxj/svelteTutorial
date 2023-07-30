@@ -41,7 +41,12 @@
 ### Route layouts, layout groups, breaking out of layouts
 ### Working with other files
 ### API Routes to handle GET, POST, PATCH and DELTE requests
-
+---
+### 데이터 Loading Test 하기 위해 loading-data 패키지 추가
+### db.json 파일 추가 (임시 데이터 생성)
+### scripts에 "serve-json" : "json-server --watch db.json --port 4000" 추가
+### npm run serve-json으로 서버 시작하여 http://localhost:4000/products 로 db.json 확인
+### /address로 dropdown 표기 +page.js의 fetch 참조
 
 ---
-# https://www.youtube.com/watch?v=SxcfP0V-LxM&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=22
+# https://www.youtube.com/watch?v=oQL3stj6_H0&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=26

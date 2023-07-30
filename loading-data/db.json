@@ -1,0 +1,75 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Product 1",
+            "price": 700,
+            "description": "Description 1"
+        },
+        {
+            "id": 2,
+            "title": "Product 2",
+            "price": 2700,
+            "description": "Description 2"
+        },
+        {
+            "id": 3,
+            "title": "Product 3",
+            "price": 3700,
+            "description": "Description 3"
+        },
+        {
+            "id": 4,
+            "title": "Product 4",
+            "price": 4700,
+            "description": "Description 4"
+        },
+        {
+            "id": 5,
+            "title": "Product 5",
+            "price": 5700,
+            "description": "Description 5"
+        }
+    ],
+    "postcodes" : [
+        {
+            "postcode" : "143-848",
+            "postcode_inward" : "143",
+            "postcode_outward" : "848",
+            "post_town" : "서울",
+            "country" : "한국",
+            "thoroughfare" : "동일로",
+            "building_number" : "119",
+            "building_name" : "서울안전센터",
+            "po_box" : "",
+            "department_name" : "관리과",
+            "organization_name" : "상담부서"
+        },
+        {
+            "postcode" : "143-949",
+            "postcode_inward" : "143",
+            "postcode_outward" : "949",
+            "post_town" : "광주",
+            "country" : "한국",
+            "thoroughfare" : "광주로",
+            "building_number" : "119",
+            "building_name" : "광주안전센터",
+            "po_box" : "",
+            "department_name" : "인사과",
+            "organization_name" : "채용부서"
+        },
+        {
+            "postcode" : "143-515",
+            "postcode_inward" : "143",
+            "postcode_outward" : "515",
+            "post_town" : "부산",
+            "country" : "한국",
+            "thoroughfare" : "부산로",
+            "building_number" : "119",
+            "building_name" : "부산안전센터",
+            "po_box" : "",
+            "department_name" : "전산과",
+            "organization_name" : "개발부서"
+        }
+    ]
+}
