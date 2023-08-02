@@ -59,4 +59,4 @@
 ### Universal Load Function은 구성 요소 생성 등 서버로드에서는 사용하지 못하는 것을 반환 가능
 ### ex)product.svelte에서 Component구성해서 넘길 때 Server Load Function은 사용못함
 
-# https://www.youtube.com/watch?v=oQL3stj6_H0&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=26
+# https://www.youtube.com/watch?v=rf3hHNkoLRk&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=30
