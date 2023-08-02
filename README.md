@@ -47,6 +47,16 @@
 ### scripts에 "serve-json" : "json-server --watch db.json --port 4000" 추가
 ### npm run serve-json으로 서버 시작하여 http://localhost:4000/products 로 db.json 확인
 ### /address로 dropdown 표기 +page.js의 fetch 참조
-
+### console.log("Load function called in page.server.js") - page.server.js 에서 콘솔부분
+### Server 에만 console확인되며, 브라우저의 개발자도구에는 표시되지 않는 것 확인
+### 서버로드 함수는 page.server.js 파일에 정의되어 있고 서버에서만 실행됨
+### 브라우저에 전달되면 안되는 민감한 정보가 포함된 페이지 작성 시 필요 (Security)
 ---
+## Universal vs Server Load Function
+### 둘다 페이지 데이터 로드 
+### 하지만 Server Load Function은 브라우저로 코드가 배송되지 않아서 데이터베이스 자격증명 및
+### 개인 API 키 등 민감한 정보를 사용하는 코드에 대한 동작이 필요할 때 사용가능
+### Universal Load Function은 구성 요소 생성 등 서버로드에서는 사용하지 못하는 것을 반환 가능
+### ex)product.svelte에서 Component구성해서 넘길 때 Server Load Function은 사용못함
+
 # https://www.youtube.com/watch?v=oQL3stj6_H0&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=26
