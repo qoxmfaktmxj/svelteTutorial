@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
     export let data;
     const title = data.title;
     const product = data.product;

@@ -57,6 +57,13 @@
 ### 하지만 Server Load Function은 브라우저로 코드가 배송되지 않아서 데이터베이스 자격증명 및
 ### 개인 API 키 등 민감한 정보를 사용하는 코드에 대한 동작이 필요할 때 사용가능
 ### Universal Load Function은 구성 요소 생성 등 서버로드에서는 사용하지 못하는 것을 반환 가능
-### ex)product.svelte에서 Component구성해서 넘길 때 Server Load Function은 사용못함
+### ex)product.svelte에서 Component구성해서 넘길 때 Server Load Function은 사용못함\
+---
+### error와 redirect 사용
+### +error.svelte에 정의하여 error났을때 문구 변경 가능하며, redirect import해서 페이지 변환
+### [productId] 내의 +page.server.js 확인
+---
+## layout data
+### products 의 layout.js, layout.svelte 참조. 데이터 불러와서 layout을 만들어서 표시
 
 # https://www.youtube.com/watch?v=rf3hHNkoLRk&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=30

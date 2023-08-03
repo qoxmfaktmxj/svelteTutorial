@@ -71,5 +71,25 @@
             "department_name" : "전산과",
             "organization_name" : "개발부서"
         }
+    ],
+    "featured-products" : [
+        {
+            "id" : 1,
+            "title" : "피처프로덕1",
+            "price" : "10000",
+            "description" :"피처원"
+        },
+        {
+            "id" : 2,
+            "title" : "피처프로덕22",
+            "price" : "20000",
+            "description" :"피처원투"
+        },
+        {
+            "id" : 3,
+            "title" : "피처프로덕333",
+            "price" : "30000",
+            "description" :"피처원투쓰리"
+        }
     ]
 }
