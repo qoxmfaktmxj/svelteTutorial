@@ -66,4 +66,4 @@
 ## layout data
 ### products 의 layout.js, layout.svelte 참조. 데이터 불러와서 layout을 만들어서 표시
 
-# https://www.youtube.com/watch?v=rf3hHNkoLRk&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=30
+# https://www.youtube.com/watch?v=OBRbAXPpNIg&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=31
