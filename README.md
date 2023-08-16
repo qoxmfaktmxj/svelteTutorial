@@ -66,4 +66,11 @@
 ## layout data
 ### products 의 layout.js, layout.svelte 참조. 데이터 불러와서 layout을 만들어서 표시
 
-# https://www.youtube.com/watch?v=OBRbAXPpNIg&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=31
+## Universal Load Function 과 Server Load Function
+### params   | params 
+### url      | url
+### route    | route
+### fetch    | fetch
+### parent   | parent
+
+# https://www.youtube.com/watch?v=VICP7KihiNs&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=33
