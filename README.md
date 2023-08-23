@@ -81,7 +81,11 @@
 ### </svelte:head>
 ### 메인 페이지 석이석이 title 존재하는 페이지는 $page.data.title을 타이틀로 가짐
 
+## Refresh Logic 시 invalidation 사용
 
-## Refresh Logic 시 invalidateAll() 을 통해 모든 부분 변경점에 대해 invalidation할 수 있음
+## app.html data-sveltekit-preload-data="hover" => Server side rendering : localhost:5173 접속 후
+## products 커서 반응 시 클릭 안한 상태여도 json데이터 받아옴 (hover, tap ...)
+## data-sveltekit-preload-data="off" 로 원하는 곳에만 끌 수 있음
+## data-sveltekit-preload-code="hover" json 파일은 못봄 (미리 로드된 데이터 사용해 그림) (eager, viewport ...)
 
-# https://www.youtube.com/watch?v=VICP7KihiNs&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=33
+# https://www.youtube.com/watch?v=xyFSbu3hM1g&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=39
