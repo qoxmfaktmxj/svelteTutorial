@@ -91,5 +91,31 @@
             "price" : "30000",
             "description" :"피처원투쓰리"
         }
-    ]
+    ],
+	"stocks": [
+		{
+			"symbol": "STOCK D",
+			"price": 1511.0
+		},
+		{
+			"symbol": "STOCK E",
+			"price": 1020.05
+		},
+		{
+			"symbol": "STOCK F",
+			"price": 2402.0
+		}
+	],
+    "most-active-stock": {
+		"symbol": "STOCK A",
+		"price": 351.0
+	},
+	"top-gaining-stock": {
+		"symbol": "STOCK B",
+		"price": 50.0
+	},
+	"top-losing-stock": {
+		"symbol": "STOCK C",
+		"price": 100.0
+	}
 }

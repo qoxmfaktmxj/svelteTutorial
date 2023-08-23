@@ -73,4 +73,15 @@
 ### fetch    | fetch
 ### parent   | parent
 
+## Using Child Data
+### http://localhost:5173/products에서 notification http://localhost:5173/products/1에서 
+### notification 컨트롤되는 부분 확인 (Child data를 parent component에서 사용)
+### <svelte:head>
+###    <title>{$page.data.title || '석이석이'} </title>
+### </svelte:head>
+### 메인 페이지 석이석이 title 존재하는 페이지는 $page.data.title을 타이틀로 가짐
+
+
+## Refresh Logic 시 invalidateAll() 을 통해 모든 부분 변경점에 대해 invalidation할 수 있음
+
 # https://www.youtube.com/watch?v=VICP7KihiNs&list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua&index=33
